@@ -1,0 +1,72 @@
+
+#content {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	margin-top: 5vh;
+	row-gap: 5vh;
+}
+
+td {
+	padding: 0;
+	margin: 0;
+	border:1px solid black;
+}
+
+.boxBorder{
+	overflow: hidden;
+	border-width: 35px;
+	border-style: solid;
+	border-color:  #245b77;
+	border-radius: 50px;
+	width: 80%;
+	background-color:  #245b77;
+}
+
+.tableFixHead {
+	overflow: auto;
+	height: 300px;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.tableFixHead,thead,th {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+table  {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px 16px;
+}
+
+th     {
+	background:#eee;
+}
+
+.checkbox{
+  	height: 20px;
+  	width: 20px;
+  	accent-color: #245b77;
+}
+
+.checkbox:hover{
+	background-color: #69a2bf;
+}
+
+h1 {
+	margin-top: 5vh;
+	padding-bottom: 500 px;
+	text-decoration: underline;
+	text-decoration-thickness: 7px;
+	text-decoration-color: #245b77;
+	text-underline-offset: 8px;
+}
+

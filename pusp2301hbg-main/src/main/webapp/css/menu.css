@@ -1,0 +1,61 @@
+
+
+* {   /*sets the padding and margin for all elements to 0*/
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sidenav {
+    width: 15vw; /* sets the width of the "sidenav" class to 15% of the viewport width*/
+    height: 100vh;
+    background: #063146;
+}
+
+h2 {
+
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    line-height: 73px;
+    background: #0a405c;
+    user-select: none;  /*prevents the user from selecting the text */
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidenav ul li {
+    margin-top: 8vh;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.sidenav ul a {
+    font-size: 18px;
+    color: white;
+    padding-left: 39px;
+    box-sizing: border-box;
+    transition: 0.4s;  /* sets the transition time for the links to 0.4 seconds*/
+    text-decoration: none;   /*removes the underline from the links*/
+}
+
+ul li:hover a {
+    padding-left: 55px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+	
+	
+	

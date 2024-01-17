@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#content {
+    width: 82vw;
+    height: 100%;
+}
+
+.alert {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+} 
+.welcome-page {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-left: 5%;
+    text-align: center;
+    background-color: rgb(185, 184, 184);
+    color: #245b77;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.welcome-page-header {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;  
+}
+
+
+.blue_button {
+    height: 25px;
+    width: 85px;
+    background-color: #245b77;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+
+.blue_button:hover {
+    background-color: #69a2bf;
+    color: white;
+}
+
+.blue_button:active {
+    background-color: #063a54; 
+    color: white;
+}
+
+.footer {
+    background-color: #0a405c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer-text a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.footer-text a:hover {
+    color: #063146;
+}
+
+.footer-text::before {
+    content: "\00a9";
+    padding-right: 5px;
+}
+
